@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="459.0" style="-fx-background-color: #e1e8f2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Admin.UpdateAccountPageController">
+   <children>
+      <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="488.0" prefWidth="444.0" style="-fx-background-color: white; -fx-background-radius: 40px;">
+         <children>
+            <Label layoutX="132.0" layoutY="14.0" prefHeight="46.0" prefWidth="210.0" text="Update Account" textFill="#3f4c6f">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="30.0" />
+               </padding>
+            </Label>
+            <Button fx:id="updateUserBtn" layoutX="108.0" layoutY="411.0" mnemonicParsing="false" onAction="#updateUser" prefHeight="25.0" prefWidth="119.0" styleClass="saveButton" stylesheets="@../../css/admin.css" text="Save" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelBtn" layoutX="233.0" layoutY="411.0" mnemonicParsing="false" onAction="#cancelCreation" prefHeight="25.0" prefWidth="119.0" styleClass="cancelButton" stylesheets="@../../css/admin.css" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="userIdTF" layoutX="223.0" layoutY="318.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <Label layoutX="64.0" layoutY="311.0" prefHeight="42.0" prefWidth="127.0" text="user id" textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="creationDateTF" layoutX="223.0" layoutY="268.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <Label layoutX="64.0" layoutY="261.0" prefHeight="42.0" prefWidth="127.0" text="Creation Date" textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="balanceTF" layoutX="223.0" layoutY="226.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <Label layoutX="64.0" layoutY="78.0" prefHeight="42.0" prefWidth="146.0" text="Account Number" textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="219.0" prefHeight="42.0" prefWidth="127.0" text="Balance" textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="currencyTF" layoutX="223.0" layoutY="184.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <Label layoutX="64.0" layoutY="170.0" prefHeight="42.0" prefWidth="127.0" text="Currency" textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTF" layoutX="223.0" layoutY="135.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <TextField fx:id="accountNumberTF" layoutX="223.0" layoutY="85.0" styleClass="textField" stylesheets="@../../css/admin.css" />
+            <Label layoutX="64.0" layoutY="128.0" prefHeight="42.0" prefWidth="127.0" text="User Name " textFill="#383560">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
